@@ -38,6 +38,7 @@ public class ReferenceDataController {
     return service.getIndices();
   }
 
+  @GetMapping("/exchanges")
   public Set<Exchange> getExchange() {
     return service.getExchanges();
   }
